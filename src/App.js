@@ -37,6 +37,9 @@ function App() {
                 <li>
                   <Link to="/useEffect">UseEffect</Link>
                 </li>
+                <li>
+                  <Link to="/git">Git</Link>
+                </li>
               </ul>
             </nav>
           </div>
@@ -53,6 +56,9 @@ function App() {
             <Route path="/useEffect">
               <UseEffect />
             </Route>
+            <Route path="/git">
+              <Git />
+            </Route>
             <Route path="/">
               <Home />
             </Route>
@@ -61,6 +67,10 @@ function App() {
       </div>
     </Router>
   );
+}
+
+function Git() {
+  return <div>Git_tag</div>;
 }
 
 export default App;
