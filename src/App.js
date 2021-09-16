@@ -70,7 +70,7 @@ function App() {
 }
 
 function Git() {
-  return <div>Git_tag</div>;
+  return <div>Pull_exam</div>;
 }
 
 export default App;
